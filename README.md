@@ -1,7 +1,8 @@
 # Project Name
 
 Authors: Dan Awesome & Tyler Main
-**Version**: 1.0.0
+
+**Version**: 1.0.2
 
 ## Overview
 
@@ -23,7 +24,9 @@ Node.js
 
 ## Change Log
 
-08-29-2022 8:21pm - Application now has a fully-functional express server, with a GET route for the location resource.
+Ver. 1.0.1 08-29-2022 8:21pm - Application now has a fully-functional express server, with a GET route for the location resource.
+
+Ver. 1.0.2 08-30-2022 8:26 - GET, POST, DELETE functionality was added to both the frontend and the backend of the application.
 
 ## Credit and Collaborations
 https://mongoosejs.com/docs
@@ -82,13 +85,13 @@ Monday August 30, 2022
 
 Name of feature: Building CRUD apps with MongoDB
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 6 hours
 
-Start time: 
+Start time: 1:20pm
 
-Finish time: 
+Finish time: 8:25
 
-Actual time needed to complete: 
+Actual time needed to complete: 7 hours
 
 -----------------------------------------------------------
 Wednesday August 31, 2022
