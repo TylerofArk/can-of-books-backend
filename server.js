@@ -31,7 +31,6 @@ async function getBooks(request, response, next) {
   try {
     let results = await Book.find();
 
-    console.log(results);
     response.status(200).send(results);
   } catch(error) {
     next(error);
@@ -41,7 +40,6 @@ async function getBooks(request, response, next) {
 app.post('/books', postBook);
 
 async function postBook(request, response, next){
-  console.log(request.body);
   try{
     const newBook = await Book.create(request.body);
     response.status(201).send(newBook);
@@ -54,7 +52,6 @@ app.delete('/books/:bookid', deleteBook);
 
 async function deleteBook(request, response, next){
   const id = request.params.bookid;
-  console.log(id);
   try {
     await Book.findByIdAndDelete(id);
     response.status(204).send('Success!');
